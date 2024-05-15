@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://2ppasakelosh"]
+
+[ext_resource type="AudioStream" uid="uid://rrseyyxb3yit" path="res://assets/music/gamon.mp3" id="1_bxgcw"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+position = Vector2(568, 100)
+stream = ExtResource("1_bxgcw")
+autoplay = true
+panning_strength = 0.0
+bus = &"Music"
